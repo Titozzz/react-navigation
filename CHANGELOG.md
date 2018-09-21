@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- added `dangerouslyGetParent()` to flow typings
+
+## [2.16.0] - [2018-09-19](https://github.com/react-navigation/react-navigation/releases/tag/2.16.0)
+
+### Changed
+
+- Updated react-navigation-stack to 0.6.0 to make react-native-screens a peerDependency.
+- Updated react-navigation-tabs to 0.8.2 to make react-native-screens a peerDependency and add support for it in bottom tab navigator.
+- Make react-native-screens a direct dependency of react-navigation.
+
+## [2.15.0] - [2018-09-19](https://github.com/react-navigation/react-navigation/releases/tag/2.15.0)
+
+### Changed
+
+- Updated react-navigation-safe-area-view to 0.11.0 to support iPhoneXS Max and iPhoneXR.
+
+## [2.14.2] - [2018-09-14](https://github.com/react-navigation/react-navigation/releases/tag/2.14.2)
+
+### Changed
+
+- Updated react-navigation-stack to 0.5.1 to clamp interpolated values in animations.
+
+## [2.14.1] - [2018-09-14](https://github.com/react-navigation/react-navigation/releases/tag/2.14.1)
+
+### Changed
+
+- Updated react-navigation-stack to 0.5.0 to solve black screen on back and unpressable header area with hidden header when using react-native-screens.
+
 ## [2.14.0] - [2018-09-12](https://github.com/react-navigation/react-navigation/releases/tag/2.14.0)
 
 ### Added
@@ -180,7 +208,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Improved examples
 
-[Unreleased]: https://github.com/react-navigation/react-navigation/compare/2.14.0...HEAD
+[Unreleased]: https://github.com/react-navigation/react-navigation/compare/2.15.0...HEAD
+[2.15.0]: https://github.com/react-navigation/react-navigation/compare/2.14.2...2.15.0
+[2.14.2]: https://github.com/react-navigation/react-navigation/compare/2.14.1...2.14.2
+[2.14.1]: https://github.com/react-navigation/react-navigation/compare/2.14.0...2.14.1
 [2.14.0]: https://github.com/react-navigation/react-navigation/compare/2.13.1...2.14.0
 [2.13.0]: https://github.com/react-navigation/react-navigation/compare/2.12.1...2.13.0
 [2.12.1]: https://github.com/react-navigation/react-navigation/compare/2.12.0...2.12.1
