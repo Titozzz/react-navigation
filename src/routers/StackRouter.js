@@ -319,7 +319,7 @@ export default (routeConfigs, stackConfig = {}) => {
         }
         return {
           ...StateUtils.push(state, route),
-          isTransitioning: false,
+          isTransitioning: action.immediate !== true,
         };
       } else if (
         action.type === StackActions.PUSH &&
